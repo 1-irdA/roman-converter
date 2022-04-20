@@ -5,7 +5,7 @@ input.addEventListener('input', convertToRoman);
 
 /**
  * Convert decimal to roman number
- * @param {string} decimal number to convert
+ * @param {String} decimal number to convert
  */
 function convertToRoman(decimal) {
     let num = parseInt(decimal.target.value);
